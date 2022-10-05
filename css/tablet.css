@@ -1,0 +1,93 @@
+.skill{
+    flex-direction: column;
+}
+section{
+    margin: 0;
+    padding: 0 20px;
+}
+.home-links{
+    display: flex;
+}
+
+.watermark{
+    display: none;
+}
+.social{
+    display: none;
+}
+
+.hey{
+    font-size: 20px;
+}
+
+.name{
+    margin-top: 5px;
+    font-size: 30px;
+}
+.title{
+    font-size: 15px;
+}
+
+
+.about{
+    padding-top: 20px;
+}
+
+.about-title::before{
+    display: none;
+}
+.about-title{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.about-title::after{
+    display: none;
+}
+
+.content{
+    flex-direction: column;
+}
+
+.potarit{
+    width: 300px;
+    height: 300px;
+}
+.text-content{
+    font-size: 20px;
+}
+.skill-title{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.skill-subtitle{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.skill-set{
+    width: 300px;
+    height: fit-content;
+}
+
+.certficates{
+    flex-direction: column;
+}
+.certificate img{
+    padding: 5px;
+    height:200px;
+    width: 180px;
+    margin: 5px;
+}
+.footer-text{
+    font-size: 10px;
+}
+
+.navlist{
+    font-size: 13px;
+}
+.navlist a{
+    margin: 0px 2vw;
+    display: block;
+}

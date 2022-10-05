@@ -1,0 +1,31 @@
+.project-title{
+    text-align: center;
+    color: var(--color);
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.project{
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+.project-title::after{
+    content: "-----";
+    padding: 5px;
+    color: var(--primary);
+}
+
+.project-title::before{
+    content: "-----";
+    padding: 5px;
+    color: var(--primary);
+}
+
+.project h3{
+    text-align: center;
+    color: rgb(50, 149, 50);
+    margin-top: 10vh;
+    font-style: oblique;
+    font-family: monospace;
+}
