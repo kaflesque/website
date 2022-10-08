@@ -76,28 +76,4 @@ navCross.addEventListener("click",function(){
     menu.style.display = "block";
 })
 
-/* idk why this ain't working.... fix in next release
-const sections = document.querySelectorAll("section");
-const navList = document.querySelectorAll(".navlist li");
-
-console.log(sections);
-console.log(navList);
-window.addEventListener("scroll",function(){
-    let current = " "
-    sections.forEach(section =>{
-        const sectiontop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (pageYOffset >= sectiontop){
-            current = section.getAttribute("id");
-            console.log(current);
-        }
-    })
-
-    navList.forEach(li =>{
-        li.classList.remove("active");
-        if (li.classList.contains(current)){
-            li.classList.add("active")
-        }
-    })
-}) */
 

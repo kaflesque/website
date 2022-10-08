@@ -381,7 +381,9 @@ footer p{
     color:var(--color)
 }
 
-
+.active{
+    color: var(--color);
+}
 .home-links{
     display: none;
     padding-top: 20px;
