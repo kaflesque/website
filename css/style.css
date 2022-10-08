@@ -60,7 +60,18 @@ a{
     text-decoration: none;
 }
 
-
+#bars{
+    color: var(--color);
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+#nav-cross{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
 .navlist{
     display: flex;
     list-style: none;
@@ -110,7 +121,7 @@ a{
 #setting{
     color:var(--color);
     position: fixed;
-    top: 20px;
+    top: 10px;
     right: 10px;
     font-size: 20px;
 }

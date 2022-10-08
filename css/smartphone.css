@@ -14,12 +14,6 @@ section{
 .logo{
     font-size: 1.2rem;
 }
-.navlist a{
-    margin: 0px 2vw;
-    letter-spacing: 0px;
-    font-weight: 100;
-    display: block;
-}
 
 .watermark{
     display: none;
@@ -105,4 +99,25 @@ section{
 
 footer a{
     font-size: 10px;
+}
+
+#bars{
+    display: block;
+}
+#nav-cross{
+    display: block;
+}
+.navlist{
+    position: absolute;
+    top:100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    background-color: var(--secondary);
+    text-align: center;
+}
+.navlist a{
+    margin: 2vh 0;
+    display: block;
 }

@@ -37,7 +37,8 @@ section{
     display: none;
 }
 .about-title{
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -57,9 +58,10 @@ section{
     font-size: 20px;
 }
 .skill-title{
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 1px;
 }
+
 
 .skill-subtitle{
     font-size: 15px;
@@ -84,10 +86,24 @@ section{
     font-size: 10px;
 }
 
+
+#bars{
+    display: block;
+}
+#nav-cross{
+    display: block;
+}
 .navlist{
-    font-size: 13px;
+    position: absolute;
+    top:100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    background-color: var(--secondary);
+    text-align: center;
 }
 .navlist a{
-    margin: 0px 2vw;
+    margin: 2vh 0;
     display: block;
 }

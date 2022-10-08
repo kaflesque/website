@@ -62,7 +62,19 @@ logo.addEventListener("click",function(){
     window.scrollTo(0,0);
 })
 
+let menu = document.querySelector("#bars");
+let navlist = document.querySelector(".navlist");
+let navCross = document.querySelector("#nav-cross");
 
+menu.addEventListener("click",function(){
+    navlist.style.display = "flex";
+    menu.style.display = "none";
+})
+
+navCross.addEventListener("click",function(){
+    navlist.style.display = "none";
+    menu.style.display = "block";
+})
 
 /* idk why this ain't working.... fix in next release
 const sections = document.querySelectorAll("section");
@@ -88,3 +100,4 @@ window.addEventListener("scroll",function(){
         }
     })
 }) */
+
