@@ -50,11 +50,38 @@ document.querySelectorAll(".color").forEach(color=>{
 window.addEventListener("scroll",function(){
     if (window.scrollY>30){
         document.querySelector("header").classList.add("sticky");
+        document.querySelector(".name").style.fontSize = "85px"
+        document.querySelector(".hey").style.fontSize = "30px"
     }
     else{
         document.querySelector("header").classList.remove("sticky");
+        document.querySelector(".name").style.fontSize = "75px"
+        document.querySelector(".hey").style.fontSize = "40px"
+    }
+    var winSizeTab = window.matchMedia("(max-width:900px) and (min-width:501px)");
+    if (winSizeTab.matches){
+        if (window.scrollY>30){
+            document.querySelector(".name").style.fontSize = "50px"
+            document.querySelector(".hey").style.fontSize = "25px"
+        }
+        else{
+            document.querySelector(".name").style.fontSize = "40px"
+            document.querySelector(".hey").style.fontSize = "30px"
+        }
+    }
+    var winSizePhone = window.matchMedia("(max-width:500px)");
+    if (winSizePhone.matches){
+        if (window.scrollY>30){
+            document.querySelector(".name").style.fontSize = "50px"
+            document.querySelector(".hey").style.fontSize = "25px"
+        }
+        else{
+            document.querySelector(".name").style.fontSize = "40px"
+            document.querySelector(".hey").style.fontSize = "30px"
+        }
     }
 });
+
 
 logo = document.querySelector("#logo");
 
@@ -76,4 +103,22 @@ navCross.addEventListener("click",function(){
     menu.style.display = "block";
 })
 
+var checkBox = document.getElementById("matrix-check-box");
+var m = document.getElementById("c")
+const matrixStatus = localStorage.getItem("nomatrix");
 
+if (matrixStatus == "true" ){
+    checkBox.checked = matrixStatus;
+    m.style.display = "none";
+}
+checkBox.addEventListener("click",function(){
+    if (checkBox.checked == true ){
+        m.style.display = "none";
+        localStorage.setItem("nomatrix",checkBox.checked)
+
+    }
+    else{
+        m.style.display = "block";
+        localStorage.setItem("nomatrix",checkBox.checked)
+    }
+})

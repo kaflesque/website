@@ -17,12 +17,12 @@ section{
 }
 
 .hey{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .name{
     margin-top: 5px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .title{
     font-size: 15px;
@@ -33,57 +33,28 @@ section{
     padding-top: 20px;
 }
 
-.about-title::before{
-    display: none;
-}
 .about-title{
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
-.about-title::after{
-    display: none;
-}
 
 .content{
     flex-direction: column;
 }
 
 .potarit{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 .text-content{
     font-size: 20px;
 }
-.skill-title{
-    font-size: 30px;
-    letter-spacing: 1px;
-}
 
 
-.skill-subtitle{
-    font-size: 15px;
-    padding: 5px;
-}
-
-.skill-set{
-    width: 300px;
-    height: fit-content;
-}
-
-.certficates{
-    flex-direction: column;
-}
-.certificate img{
-    padding: 5px;
-    height:200px;
-    width: 180px;
-    margin: 5px;
-}
 .footer-text{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
@@ -106,4 +77,8 @@ section{
 .navlist a{
     margin: 2vh 0;
     display: block;
+}
+
+footer{
+    margin: 0 50px;
 }

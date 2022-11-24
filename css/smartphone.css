@@ -1,5 +1,9 @@
-.skill{
-    flex-direction: column;
+.theme{
+    width: 200px;
+}
+.theme .theme-colors .color{
+    height:40px;
+    width:40px;
 }
 section{
     margin: 0;
@@ -42,7 +46,6 @@ section{
     display: none;
 }
 .about-title{
-    font-size: 20px;
     letter-spacing: 1px;
 }
 
@@ -61,30 +64,6 @@ section{
 .text-content{
     font-size: 15px;
 }
-.skill-title{
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.skill-subtitle{
-    font-size: 15px;
-    padding: 5px;
-}
-
-.skill-set{
-    width: 300px;
-    height: fit-content;
-}
-
-.certficates{
-    flex-direction: column;
-}
-.certificate img{
-    padding: 5px;
-    height:200px;
-    width: 180px;
-    margin: 5px;
-}
 
 
 .project-title::before{
@@ -98,7 +77,11 @@ section{
 }
 
 footer a{
-    font-size: 10px;
+    font-size:15px;
+}
+
+footer{
+    margin: 0 20px;
 }
 
 #bars{
@@ -119,5 +102,8 @@ footer a{
 }
 .navlist a{
     margin: 2vh 0;
+    display: block;
+}
+#bars{
     display: block;
 }

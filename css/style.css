@@ -107,7 +107,7 @@ a{
     height:fit-content;
     padding: 10px;
     border-radius: 10px;
-    width: 20vw;
+    width: 300px;
     z-index: 999;
     background-color: var(--secondary);
     color: var(--secondary);
@@ -131,9 +131,19 @@ a{
     color: var(--color);
 }
 
+.theme span{
+    color: var(--color);
+}
+
+.matrix-check-box{
+    height: 15px;
+    width: 15px;
+}
 
 .theme h3{
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
     text-align: center;
     color:var(--primary);
 }
@@ -180,6 +190,7 @@ section{
     min-width: 100vw;
     z-index: -1;
     opacity: 0.4;
+    display: block;
 }
 
 #about-btn a{
@@ -205,8 +216,8 @@ section{
 
 #about-btn:hover{
     cursor: pointer;
-    filter: drop-shadow(2px 2px 10px var(--color));
-    transition: filter 1s;
+    filter: drop-shadow(1px 1px 5px var(--color));
+    transition: filter 0.5s;
 }
 
 .hey{
@@ -214,6 +225,7 @@ section{
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--primary);
+    transition: font-size 0.4s;
 }
 
 .name{
@@ -223,6 +235,7 @@ section{
     font-size: 75px;
     letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: font-size 0.2s;
 }
 
 .title{
@@ -235,117 +248,7 @@ section{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*skill*/
-.skill{
-    padding-top: 100px;
-    min-height: 100vh;
-    display: flex;
-}
 
-.skill-title{
-    text-align: center;
-    color: var(--color);
-    letter-spacing: 2px;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.skill-subtitle{
-    text-align: center;
-    color: var(--color);
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 500;
-    padding: 10px;
-}
-
-.skill{
-    color: var(--color);
-    display: flex;
-}
-
-.skill-set{
-    width: 450px;
-    height: fit-content;
-    padding: 10px;
-}
-
-.skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-}
-
-.container{
-    background-color: grey;
-    opacity: 0.9;
-    border-radius: 10px;
-}
-
-.skill-set p{
-    margin:5px;
-    text-decoration: underline;
-    color: var(--primary);
-}
-
-.html{
-    width: 90%; 
-    background-color: var(--color);
-    border-radius: 10px;
-}
-.css{
-    width: 80%; 
-    background-color: var(--color);
-    border-radius: 10px;
-}
-.js {
-    width: 35%; 
-    background-color: var(--color);
-    border-radius: 10px;
-}
-.python {
-    width: 40%; 
-    background-color: var(--color);
-    border-radius: 10px;
-}
-.php{
-    width: 10%;
-    background-color: var(--color);
-    border-radius: 10px;
-}
-
-.certificate-section{
-    padding-top: 10px;
-}
-
-.certificate-title{
-    text-align: center;
-    color: var(--color);
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.certficates{
-    display: flex;
-    justify-content: center;
-}
-.certificate img{
-    padding: 10px;
-    height:230px;
-    width: 280px;
-    margin: 5px;
-}
-
-.certificate img:hover{
-    cursor: pointer;
-    transform: scale(1.5);
-    transition: transform 1s;
-}
-
-.project1{
-    color: var(--color);
-}
 
 footer{
     padding: 0 5px 0;
