@@ -2,7 +2,11 @@
     padding-top: 100px;
     min-height: 100vh;
 }
-
+.about-container{
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.02);
+}
 .about-title::before{
     content: "-----";
     padding: 5px;
@@ -26,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .potarit{
@@ -34,7 +39,6 @@
     border: 2px solid var(--secondary);
 }
 .potarit:hover{
-    filter: drop-shadow(2px 2px 2px var(--color));
     border: 1px solid var(--color);
     transition: all 0.5s;
 }

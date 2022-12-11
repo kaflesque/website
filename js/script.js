@@ -52,11 +52,13 @@ window.addEventListener("scroll",function(){
         document.querySelector("header").classList.add("sticky");
         document.querySelector(".name").style.fontSize = "85px"
         document.querySelector(".hey").style.fontSize = "30px"
+        m.style.filter = "blur(1px)";
     }
     else{
         document.querySelector("header").classList.remove("sticky");
         document.querySelector(".name").style.fontSize = "75px"
         document.querySelector(".hey").style.fontSize = "40px"
+        m.style.filter = "blur(0px)";
     }
     var winSizeTab = window.matchMedia("(max-width:900px) and (min-width:501px)");
     if (winSizeTab.matches){

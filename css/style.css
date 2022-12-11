@@ -37,7 +37,7 @@ header{
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     background-color: rgba(0, 0, 0, 0.8);
-    transition: all 0.5s;
+    transition: all 0.5s linear;
 }
 .logo{
     color: var(--color);
@@ -189,8 +189,10 @@ section{
     min-height: 100vh;
     min-width: 100vw;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.27;
     display: block;
+    filter: blur(0px);
+    transition: filter 1s;
 }
 
 #about-btn a{
