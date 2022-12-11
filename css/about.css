@@ -5,7 +5,7 @@
 .about-container{
     border-radius: 10px;
     padding: 25px;
-    background-color: rgba(255, 255, 255, 0.02);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .about-title::before{
     content: "-----";
@@ -37,10 +37,6 @@
     width: 400px;
     height: 400px;
     border: 2px solid var(--secondary);
-}
-.potarit:hover{
-    border: 1px solid var(--color);
-    transition: all 0.5s;
 }
 
 .text-content{
