@@ -1,5 +1,5 @@
 .about{
-    padding-top: 100px;
+    padding-top: 50px;
     min-height: 100vh;
 }
 .about-container{
@@ -43,7 +43,8 @@
     color: var(--color);
     padding: 10px;
     margin:20px;
-    font-size: 20px;
+    font-size: 16px;
     opacity: 0.8;
+    letter-spacing: 0.5px;
 }
 
